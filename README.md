@@ -1,8 +1,11 @@
 # konstantinopol
 
-Parser for browser bookmark files.
+Konstantinopol is a set of tools to manage your bookmarks.
+Work in progress.
 
-# Run
+The main work resolves around :
 
- * lein uberjar
- * java -jar target/konstantinopol-0.1.0-SNAPSHOT-standalone.jar
+* parser lib for browser bookmark files
+* server for exposing a webapp and REST API for managing bookmarks
+* Google Chrome extension to easily save a bookmark from the browser
+
